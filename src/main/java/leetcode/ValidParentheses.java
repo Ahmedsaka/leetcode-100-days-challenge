@@ -34,7 +34,7 @@ public class ValidParentheses {
                 char current = s.charAt(i);
                 if (isClosedBracket(bracketStack.peek(), current)) {
                     bracketStack.pop();
-                } else return false;
+                } else return false ;
             }
         }
 
